@@ -8,9 +8,12 @@
 #include "mul.h"
 #include "sub.h"
 
+#include <stdlib.h>
+#include <time.h>
 
 int main()
 {
+	srand(time(NULL));
 	int x = 0;
 	int y = 0;
 	int i = 0;
@@ -19,6 +22,10 @@ int main()
 	{
 		std::cout << "첫번째 수를 입력하세요 : ";
 		std::cin >> x;
+	std::cout << "첫번째 수를 입력하세요 : ";
+	std::cin >> x;
+	std::cout << "두번째 수는 자동으로 입력됩니다.";
+	y = rand() % 100;
 
 		if (-999 == x)
 		{
