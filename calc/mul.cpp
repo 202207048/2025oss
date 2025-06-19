@@ -9,5 +9,6 @@ int mul(int x, int y)
 	{
 		sum = add(sum, x);
 	}
+
 	return sum;
 }
