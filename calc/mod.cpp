@@ -7,6 +7,5 @@ int mod(int x, int y)
 	{
 		x = sub(x, y);
 	}
-
 	return x;
 }
